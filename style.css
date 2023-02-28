@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  overflow: auto;
+  min-width: 375px;
+}
+
+.allSpace {
+  /* Flex box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /* adjusts */
+  min-width: 375px;
+  max-width: 375px;
+  padding: 20px;
+  /* style */
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
+  border-radius: 15px;
+}
+
+.qrCode img{
+  width: 330px;
+  border-radius: 15px;
+}
+.titulo{
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  padding: 20px 30px;
+  font-size: 22px;
+}
+
+.texto{
+  
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  padding: 0 30px 20px 30px;
+  color: hsl(220, 15%, 55%);
+}
